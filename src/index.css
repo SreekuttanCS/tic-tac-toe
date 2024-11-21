@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.board-row,
+.result {
+  display: flex;
+  justify-content: center;
+}
+.square {
+  margin: 2px;
+  height: 100px;
+  width: 100px;
+  font-size: 45px;
+  background: #1f3540;
+}
+.heading {
+  color: white;
+  font-size: 3rem;
+}
+.game {
+  display: flex;
+  justify-content: center;
+  background: #0f1b21;
+  height: 100vh;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+}
+.section {
+  display: flex;
+  gap: 50px;
+  height: 50vh;
+}
+.result {
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.listdata {
+  padding-top: 3rem;
+}
+.listdata button {
+  background: #1f3540;
+  color: white;
+  padding: 1rem;
+}
+.listdata ol {
+  list-style: none;
+}
+.btn-section {
+  display: flex;
+  justify-content: center;
+}
+.reset-button {
+  background-color: transparent;
+  color: white;
+  padding-block: 1rem;
+  padding-inline: 1.8rem;
+  margin-block: 1rem;
+}
